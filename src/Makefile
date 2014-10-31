@@ -5,4 +5,4 @@ run:
 	java Main
 
 clean:
-	rm Main
+	rm *.class
