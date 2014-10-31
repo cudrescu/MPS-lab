@@ -20,13 +20,13 @@ public class Main {
 		secondMatrix = reader.create_mat(matrixDimension);
 		
 		resultAdd = addOperation.add(firstMatrix, secondMatrix);
-		resultMultiply = multiplyOperation.multiply(firstMatrix, secondMatrix);
+		//resultMultiply = multiplyOperation.multiply(firstMatrix, secondMatrix);
 		
 		System.out.println("The add matrix result:");
 		writer.writeResult(resultAdd);
 		
 		System.out.println("The multiply matrix result:");
-		writer.writeResult(resultMultiply);
+		//writer.writeResult(resultMultiply);
 		
 	}
 	
